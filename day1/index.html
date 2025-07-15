@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mert Lisesi</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- jquery bu şekilde ekledim -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <h2>Öğrenci Paneli</h2>
+
+    <form id="addStudentForm">
+      <input type="text" id="nameInput" placeholder="Öğrenci Adı" />
+      <input type="text" id="classInput" placeholder="Sınıf" />
+      <button type="submit">Kaydet</button>
+    </form>
+
+    <table id="studentTable">
+      <thead>
+        <tr>
+          <th>Ad Soyad</th>
+          <th>Sınıf</th>
+          <th>Kaydi Sil</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </body>
+</html>
