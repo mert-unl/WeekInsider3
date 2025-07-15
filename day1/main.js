@@ -29,15 +29,13 @@ function renderTable() {
         "'>Okuldan at!</span></td>"
     );
 
-    row.attr("title", "Satıra tıkla, seç");
-
     row.click(function () {
       $(this).toggleClass("clicked");
     });
 
     row.on("mouseenter", function () {
       $(this).css({
-        transform: "scale(1.02)",
+        transform: "scale(1.025)",
       });
     });
 
@@ -46,7 +44,6 @@ function renderTable() {
         transform: "scale(1)",
       });
     });
-
     tbody.append(row);
   });
 }
