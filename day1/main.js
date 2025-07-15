@@ -37,7 +37,7 @@ function renderTable() {
 
     row.on("mouseenter", function () {
       $(this).css({
-        transform: "scale(1.05)",
+        transform: "scale(1.02)",
       });
     });
 
