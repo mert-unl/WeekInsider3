@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gönderi Sayfası</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Gönderiler</h1>
+
+      <div class="controls">
+        <button id="errorBtn">Hatalı İstek At</button>
+        <span class="post-count"
+          >Yüklenen Gönderi: <span id="count">0</span></span
+        >
+      </div>
+
+      <div id="posts"></div>
+
+      <div id="loading" class="loading"></div>
+      <div id="error" class="error"></div>
+    </div>
+  </body>
+</html>
